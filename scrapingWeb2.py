@@ -296,5 +296,5 @@ if __name__ == '__main__':
    
    EX1 = ScrapeData(**EX1input)
    EX1result = EX1.Procedure()
-   #EX1.WriteCsv(EX1result['fromDate'],EX1result['toDate'],EX1result['data1'],EX1result['data2'])
+   EX1.WriteCsv(EX1result['fromDate'],EX1result['toDate'],EX1result['data1'],EX1result['data2'])
    #EX1.WriteCsv(EX1result)
